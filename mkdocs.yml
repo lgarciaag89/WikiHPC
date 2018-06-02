@@ -1,0 +1,9 @@
+site_name: WIKI UCI HPC
+pages:
+    - Home: index.md
+    - Acceso y transferencias: acceso.md
+    - Ejecutar tareas: comandos.md
+    - Ambiente module/Easybuild: moduleenv.md    
+    - Aplicaciones disponibles: listadoapps.md
+    - Descripción de hardware: harddesc.md
+theme: material

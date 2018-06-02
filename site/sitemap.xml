@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/</loc>
+     <lastmod>2018-05-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/acceso/</loc>
+     <lastmod>2018-05-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/comandos/</loc>
+     <lastmod>2018-05-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/moduleenv/</loc>
+     <lastmod>2018-05-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/listadoapps/</loc>
+     <lastmod>2018-05-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/harddesc/</loc>
+     <lastmod>2018-05-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

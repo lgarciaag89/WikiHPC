@@ -1,0 +1,691 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.3">
+    
+    
+      
+        <title>Ejecutar tareas - WIKI UCI HPC</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.8d40d89b.css">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#ejecucion-de-tareas" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="WIKI UCI HPC" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                WIKI UCI HPC
+              </span>
+              <span class="md-header-nav__topic">
+                Ejecutar tareas
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
+    WIKI UCI HPC
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../acceso/" title="Acceso y transferencias" class="md-nav__link">
+      Acceso y transferencias
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Ejecutar tareas
+      </label>
+    
+    <a href="./" title="Ejecutar tareas" class="md-nav__link md-nav__link--active">
+      Ejecutar tareas
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" title="Introducción" class="md-nav__link">
+    Introducción
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commandos-basicos" title="Commandos básicos" class="md-nav__link">
+    Commandos básicos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definir-script-de-ejecucion" title="Definir script de ejecución" class="md-nav__link">
+    Definir script de ejecución
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definir-la-cantidad-de-nodos" title="Definir la cantidad de nodos" class="md-nav__link">
+    Definir la cantidad de nodos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-tiempo-maximo-de-ejecucion" title="Definir el tiempo máximo de ejecución" class="md-nav__link">
+    Definir el tiempo máximo de ejecución
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-nombre-de-la-ejecucion" title="Definir el nombre de la ejecución" class="md-nav__link">
+    Definir el nombre de la ejecución
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificaciones" title="Notificaciones" class="md-nav__link">
+    Notificaciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-numero-de-procesos-por-nodo" title="Definir el número de procesos por nodo." class="md-nav__link">
+    Definir el número de procesos por nodo.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-ejecucion-en-multiples-nodos" title="Ejemplo de ejecución en multiples nodos" class="md-nav__link">
+    Ejemplo de ejecución en multiples nodos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejecutar-un-script-slurm" title="Ejecutar un script slurm" class="md-nav__link">
+    Ejecutar un script slurm
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monitorear-el-estado-de-las-ejecuciones" title="Monitorear el estado de las ejecuciones" class="md-nav__link">
+    Monitorear el estado de las ejecuciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eliminar-tareas" title="Eliminar tareas" class="md-nav__link">
+    Eliminar tareas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enlaces-de-interes" title="Enlaces de interés" class="md-nav__link">
+    Enlaces de interés
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../moduleenv/" title="Ambiente module/Easybuild" class="md-nav__link">
+      Ambiente module/Easybuild
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../listadoapps/" title="Aplicaciones disponibles" class="md-nav__link">
+      Aplicaciones disponibles
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../harddesc/" title="Descripción de hardware" class="md-nav__link">
+      Descripción de hardware
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" title="Introducción" class="md-nav__link">
+    Introducción
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commandos-basicos" title="Commandos básicos" class="md-nav__link">
+    Commandos básicos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definir-script-de-ejecucion" title="Definir script de ejecución" class="md-nav__link">
+    Definir script de ejecución
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definir-la-cantidad-de-nodos" title="Definir la cantidad de nodos" class="md-nav__link">
+    Definir la cantidad de nodos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-tiempo-maximo-de-ejecucion" title="Definir el tiempo máximo de ejecución" class="md-nav__link">
+    Definir el tiempo máximo de ejecución
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-nombre-de-la-ejecucion" title="Definir el nombre de la ejecución" class="md-nav__link">
+    Definir el nombre de la ejecución
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificaciones" title="Notificaciones" class="md-nav__link">
+    Notificaciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-numero-de-procesos-por-nodo" title="Definir el número de procesos por nodo." class="md-nav__link">
+    Definir el número de procesos por nodo.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-ejecucion-en-multiples-nodos" title="Ejemplo de ejecución en multiples nodos" class="md-nav__link">
+    Ejemplo de ejecución en multiples nodos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejecutar-un-script-slurm" title="Ejecutar un script slurm" class="md-nav__link">
+    Ejecutar un script slurm
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monitorear-el-estado-de-las-ejecuciones" title="Monitorear el estado de las ejecuciones" class="md-nav__link">
+    Monitorear el estado de las ejecuciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eliminar-tareas" title="Eliminar tareas" class="md-nav__link">
+    Eliminar tareas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enlaces-de-interes" title="Enlaces de interés" class="md-nav__link">
+    Enlaces de interés
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="ejecucion-de-tareas">Ejecución de tareas</h1>
+<p>El cluster cuenta con <a href="https://slurm.schedmd.com/">slurm</a> como planificador de tareas.  El usuario tendrá la oportunidad de ejecutar sus tareas en las diferentes colas de ejecución, en dependencia del tiempo y los recursos necesarios para ejecutar la tarea.</p>
+<h4 id="introduccion">Introducción</h4>
+<p>Las tareas en el cluster serán atendidas por slurm. Para poder ejecutar una tarea normalmente un usuario debe preparar un script de ejecución donde define la aplicación que desea ejecutar, los juegos de entrada, la forma en que obtendrá la salida y los recursos que necesita para ejecutar la aplicación. Se podrá definir también si desea ser notificado vía email cuando el estado de sus tareas cambien. Cuando el script esté definido se le entrega a slurm para que este se encargue de ejecutarlo.</p>
+<h3 id="commandos-basicos">Commandos básicos</h3>
+<ul>
+<li><code>scontrol</code> - Herramienta par administrar, ver y modificar configuraciones.</li>
+<li><code>sinfo</code> - Muestra información general acerca del sistema de colas.</li>
+<li><code>squeue</code> - Muestra información detallada de las tareas en las colas.</li>
+<li><code>scancel</code> - Cancela una tarea de ejecución.</li>
+<li><code>sbatch</code> - Ubica el script de ejecución en la cola definida en el fichero de ejecución, si no se define una cola slurm ubica la tarea en la cola por defecto.</li>
+<li><code>srun</code> - Ejecuta una tarea paralela, de ser necesario crea antes de ejecutar la tarea,  un espacio con los recursos definidos.</li>
+</ul>
+<h3 id="definir-script-de-ejecucion">Definir script de ejecución</h3>
+<p>Un script de ejecución describe todo lo necesario para ejecutar una tarea(aplicación,datos de entrada, forma de salida, recursos necesarios, etc  ). El caso simple es cuando la ejecución de las tareas necesita solo un nodo de ejecución. </p>
+<p>Poniendo como caso de ejemplo una aplicación que tenga los siguientes requerimientos:</p>
+<ul>
+<li>Ejecutarse en un solo nodo,</li>
+<li>No se ejecutará mas de 10 minutos,</li>
+<li>Se identificará como "miapp1",</li>
+<li>Se quiere ser notificado cada vez que la ejecución cambie de estado.</li>
+</ul>
+<p>Suponiendo que el código que se desea ejecutar se llama <em>miapp</em>, el siguiente script definiría todos los requerimientos listados arriba y mandaría a ejecutar <em>miapp</em>.</p>
+<pre><code class="bash">#!/bin/bash
+
+# definir número de nodos
+#SBATCH --nodes=1
+
+# establecer el tiempo máximo que se desea ejecutar la aplicación
+#SBATCH --time=00:10:00
+
+# definir el nombre de la ejecución
+#SBATCH --job-name=miapp1
+
+# establecer ser notificado cada vez que la ejecución cambie de estado
+#SBATCH --mail-type=ALL
+
+# definir a cual dirección de correo deben llegar las notificaciones
+#SBATCH --mail-user=john.smith@uci.cu
+
+# mandar a ejecutar la aplicación
+miapp
+</code></pre>
+
+<p>El script comienza con <code>#!/bin/bash</code> , que indica que el script es script bash de linux.</p>
+<p>Después de definir el <em>shebang</em> siguen un conjunto de lineas iniciadas con <em>#SBATCH</em>, directivas slurm para definir los recursos computacionales y las configuraciones generales de la ejecución tales como nombre, etc. Las directivas  <code>#SBATCH</code> deben ser ubicadas al inicio de la ejecución antes cualquier otro comando, las directivas definidas después de algún comando son ignoradas. </p>
+<h4 id="definir-la-cantidad-de-nodos">Definir la cantidad de nodos</h4>
+<p>La directiva <code>#SBATCH --nodes=1</code> determina la cantidad de nodos necesarios para la ejecución, para el ejemplo solo se solicitó un nodo. La cantidad de nodos que se soliciten es un tema importante, si se solicitan más nodos de los que realmente se empleen en la ejecución, los nodos que no se empleen estarán reservados para la ejecución pero no se estarán utilizando.</p>
+<h4 id="definir-el-tiempo-maximo-de-ejecucion">Definir el tiempo máximo de ejecución</h4>
+<p>La directiva <code>#SBATCH --time=00:10:00</code> especifica el tiempo máximo que la aplicación estará ejecutándose, este tiempo no tiene en cuenta el tiempo que la tarea estará en estado de espera en la cola de ejecución. El formato del tiempo estará definido por h:m:s y se espera que la ejecución termine antes de vencerse el tiempo máximo. Cuando el tiempo máximo es alcanzado slurm termina la tarea sin importar el estado de la ejecución.   </p>
+<h4 id="definir-el-nombre-de-la-ejecucion">Definir el nombre de la ejecución</h4>
+<p>La directiva <code>#SBATCH --job-name=miapp1</code> define el nombre de la tarea</p>
+<h4 id="notificaciones">Notificaciones</h4>
+<p>Si la directiva <code>#SBATCH --mail-user=john.smith@uci.cu</code> es especificada un correo de notificación es enviado a la dirección solicitada. Para definir en que momento se desea recibir notificaciones se define la directiva <code>#SBATCH --mail-type=&lt;type&gt;</code>, donde <type> puede ser  <strong><em>BEGIN</em></strong>, <strong><em>END</em></strong>, <strong><em>FAIL</em></strong>, <strong><em>REQUEUE</em></strong> o <strong><em>ALL</em></strong> (para cualquier cambio del estado).</p>
+<p>Por último se especifica las operaciones que se desean ejecutar utilizando comandos linux. La tarea se inicia en la carpeta desde la cual fue enviada a slurm, pero esto puede ser cambiado desde el script, al igual que desde el script se pueden modificar, crear  o eliminar   variables de entorno, así como definir los módulos que se desean utilizar.</p>
+<h4 id="definir-el-numero-de-procesos-por-nodo">Definir el número de procesos por nodo.</h4>
+<p>Si se desea ejecutar la aplicación de manera concurrente en más de un nodo y utilizando varios procesos se puede definir la cantidad de tareas que se desean ejecutar por nodos utilizando la directiva <code>#SBATCH --ntasks-per-node=n</code>, donde n es un número entero. </p>
+<h4 id="ejemplo-de-ejecucion-en-multiples-nodos">Ejemplo de ejecución en multiples nodos</h4>
+<p>Se dese ejecutar una aplicación utilizando 32 procesadores, en un conjunto de nodos que tienen 16 procesadores cada 1 con los siguientes requerimientos:</p>
+<ul>
+<li>Ejecutar sobre 32 procesadores,</li>
+<li>No se ejecutará mas de 100 horas,</li>
+<li>Se identificará como "miapp2",</li>
+<li>Se quiere ser notificado cada vez que la ejecución cambie de estado,</li>
+<li>Tiene dependencia de mpi.</li>
+</ul>
+<pre><code class="bash">#!/bin/bash
+
+# definir número de nodos
+#SBATCH --nodes=1
+
+# Definir el numero de tareas(procesos) a ejecutar en cada nodo.
+#SBATCH --ntasks-per-node=16
+
+
+# establecer el tiempo máximo que se desea ejecutar la aplicación
+#SBATCH --time=100:00:00
+
+# definir el nombre de la ejecución
+#SBATCH --job-name=miapp2
+
+# establecer ser notificado cada vez que la ejecución cambie de estado
+#SBATCH --mail-type=ALL
+
+# definir a cual dirección de correo deben llegar las notificaciones
+#SBATCH --mail-user=john.smith@uci.cu
+
+# mandar a ejecutar la aplicación
+mpirun $MPI_HOSTS miaap2
+</code></pre>
+
+<h3 id="ejecutar-un-script-slurm">Ejecutar un script slurm</h3>
+<p>Definido el script de ejecución, se enviará a slurm utilizando el comando <code>sbatch script_name</code> . El sistema de colas devuelve un número de identificación de la tarea en la cola y devuelve el control a la terminal de linux. Por defecto slurm crea ficheros de ejecución donde se van mostrando los mensajes enviados a la salida estándar del sistema. Una vez se envié el trabajo estará en estado pendiente hasta que los recursos necesarios para la ejecución estén disponibles y se cumplan las reglas de prioridad definidas. </p>
+<h3 id="monitorear-el-estado-de-las-ejecuciones">Monitorear el estado de las ejecuciones</h3>
+<p>Con el comando <code>squeue</code> se  puede ver el estado de la ejecución. El comando <code>squeue</code> muestra la lista de tareas actuales en el estado en el que se encuentran.</p>
+<pre><code>         JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           173    normal execClus   user99 PD       0:00      3 (Resources)
+</code></pre>
+<p>La primera columna muestra el identificador de la tarea,  la segunda columna muestra la cola o partición  donde se está ejecutando la tarea, la tercera columna muestra el  nombre que se especificó y la cuarta muestra el propietario de la tarea. La quinta columna muestra el estado de la ejecución, el estado puede ser (R=ejecutando, PD=pendiente, CA=cancelado, CF=configurando, CG=completando, CD=completo, F=fallido). La sexta columna muestra el tiempo durante el cual se ha estado ejecutando  la tarea. Finalmente se muestra el número de nodos pedidos y la lista de nombre de los nodos que están participando en la ejecución. Si la tarea no se está ejecutando esta columna muestra la causa por el cual no se está ejecutando.</p>
+<h3 id="eliminar-tareas">Eliminar tareas</h3>
+<p>El comando <code>scancel</code> elimina las tareas de la cola de ejecución, sin importar el estado en el que esté. <code>scancel 173</code> elimina la tarea con identificador 173. Un usuario solo podrá borrar las tareas de su propiedad.</p>
+<h3 id="enlaces-de-interes">Enlaces de interés</h3>
+<ul>
+<li>
+<p><a href="https://slurm.schedmd.com/pdfs/summary.pdf">Comandos básicos de slurm</a> </p>
+</li>
+<li>
+<p><a href="https://slurm.schedmd.com/quickstart.html">Quick start slurm</a></p>
+</li>
+<li>
+<p><a href="https://slurm.schedmd.com/">slurm</a> </p>
+</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../acceso/" title="Acceso y transferencias" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Acceso y transferencias
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../moduleenv/" title="Ambiente module/Easybuild" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Ambiente module/Easybuild
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.b438e6c5.js"></script>
+      
+      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
